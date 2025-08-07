@@ -3,79 +3,68 @@
 ## ⏱️ Prazo
 Você terá **24 horas** após o recebimento deste desafio para finalizá-lo.
 
-## 🧠 Objetivo
-Criar um pequeno aplicativo em **React Native** que consuma dados de uma **API pública** e apresente as informações em uma interface simples e funcional.
-
----
-
-## 🎬 API
-Utilize a [TMDB API (The Movie Database)](https://www.themoviedb.org/), uma API gratuita que fornece informações sobre filmes, séries e celebridades.
-
-Documentação: https://developer.themoviedb.org/docs  
-➡️ **Você precisará criar uma conta gratuita e gerar uma chave de API**: https://www.themoviedb.org/settings/api
+## 🎯 Objetivo
+Criar um aplicativo em **React Native (CLI)** que permita ao usuário gravar e gerenciar **notas de voz**, com foco em usabilidade durante caminhadas ou momentos em que não pode digitar.
 
 ---
 
 ## 🧭 Como começar
 
 1. Faça um **fork deste repositório** para a sua conta pessoal no GitHub.
-2. Trabalhe **diretamente no seu fork**, realizando **commits frequentes e com mensagens claras** — valorizamos muito a forma como você evolui a solução.
+2. Trabalhe diretamente no seu fork, realizando **commits frequentes e com mensagens claras**.
 3. Ao finalizar, envie o **link do seu repositório (fork)** para que possamos avaliar.
 
 ---
 
-## 🖥️ Funcionalidades obrigatórias
+## 🖼️ Protótipo de Referência
 
-### Tela de Listagem de Filmes
-- Exiba uma lista de filmes populares (use o endpoint `/movie/popular`).
-- Para cada filme, exibir:
-  - Poster
-  - Título
-  - Data de lançamento
-  - Nota média
+Você pode visualizar o protótipo com as principais telas neste link:
 
-### Tela de Detalhes do Filme
-- Ao clicar em um filme, abrir uma nova tela com mais informações, incluindo:
-  - Descrição (sinopse)
-  - Gêneros
-  - Duração
-  - Trailer (opcional – se quiser usar o endpoint de vídeos)
-  - Lista de filmes relacionados (opcional)
+👉 [https://app.banani.co/preview/mi5GkTkOJeMqtCzVv9wN](https://app.banani.co/preview/mi5GkTkOJeMqtCzVv9wN)
+
+Não é necessário seguir o design ao pé da letra, mas use-o como guia para a estrutura e fluxo do app.
 
 ---
 
-## 🧪 Requisitos Técnicos
+## 🎤 Funcionalidades obrigatórias
 
-- Aplicativo feito com **React Native**.
-- Utilizar **TypeScript**.
-- Utilizar **Expo** (opcional, mas facilita a avaliação).
-- O código deve estar publicado no **seu fork deste repositório**.
-- Interface simples, mas responsiva e usável.
-- Pode utilizar bibliotecas externas (ex: axios, react-navigation, etc).
-- Documente **como rodar o projeto** no README, incluindo onde colocar a chave da API.
+- Tela inicial com **lista de notas gravadas** (ordenadas por data/hora).
+- Botão para **iniciar/parar gravação** de uma nova nota.
+- As notas devem ser **armazenadas localmente** no dispositivo.
+- Cada item da lista deve permitir:
+  - Reproduzir o áudio
+  - Excluir a nota
 
 ---
 
-## 🚀 Diferenciais (não obrigatórios)
+## 🔧 Requisitos técnicos
 
-- Uso de **hooks personalizados**.
-- Organização de pastas e componentes reutilizáveis.
-- Tratamento de erros e loading states.
-- Testes unitários em partes críticas.
-- Uso de cache local (ex: AsyncStorage, context, etc).
-- Animações e transições suaves.
-- Suporte à troca de tema (claro/escuro).
+- O projeto deve ser criado com **React Native CLI (sem Expo)**.
+- Utilize **TypeScript**.
+- O app deve rodar em pelo menos uma das plataformas: **Android ou iOS**.
+- O aplicativo **não deve depender de backend** — o foco é no uso de funcionalidades nativas.
+- A interface deve ser simples e clara, com **feedback visual adequado** de gravação e reprodução.
+- Documente como rodar o projeto no `README.md` (incluindo dependências e permissões necessárias).
+
+---
+
+## 💡 Diferenciais (não obrigatórios)
+
+- Suporte a ambas as plataformas (iOS e Android)
+- Uso de hooks personalizados
+- Suporte a **transcrição de áudio**
+- Organização avançada do projeto (ex: domain-driven, atomic design, etc.)
+- Foco em **acessibilidade** (ex: suporte a leitores de tela)
 
 ---
 
 ## ✅ O que será avaliado
 
-- Qualidade e estrutura do código.
-- Clareza dos commits e organização do repositório.
-- Capacidade de consumir e estruturar dados de uma API externa.
-- Separação de responsabilidades e boas práticas com componentes.
-- UX básica (estado de loading, erros, navegação fluida).
-- Proatividade e atenção aos detalhes.
+- Funcionamento básico e fluidez do app
+- Uso correto das permissões e APIs nativas
+- Clareza dos commits e organização do código
+- Separação de responsabilidades e boas práticas com componentes
+- Proatividade com UX, acessibilidade ou melhorias não solicitadas
 
 ---
 
