@@ -1,7 +1,7 @@
 # 🧪 Desafio Técnico – Desenvolvedor(a) React Native
 
 ## ⏱️ Prazo
-Você terá **24 horas** após o recebimento deste desafio para finalizá-lo.
+Você terá **72 horas** após o recebimento deste desafio para finalizá-lo.
 
 ## 🎯 Objetivo
 Criar um aplicativo em **React Native (CLI)** que permita ao usuário gravar e gerenciar **notas de voz**, com foco em usabilidade durante caminhadas ou momentos em que não pode digitar.
@@ -34,6 +34,8 @@ Não é necessário seguir o design ao pé da letra, mas use-o como guia para a 
 - Cada item da lista deve permitir:
   - Reproduzir o áudio
   - Excluir a nota
+- A gravação deve simular um comportamento de **streaming**, salvando o conteúdo em blocos de tempo (ex: a cada 5 segundos).
+  - ⚠️ **Observação**: Se a biblioteca utilizada não permitir gravação contínua com cortes, **é aceitável parar e retomar a gravação a cada 5 segundos para realizar o corte.** O importante é que o resultado final reflita essa lógica.
 
 ---
 
